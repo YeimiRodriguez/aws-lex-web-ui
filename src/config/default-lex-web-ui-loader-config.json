@@ -1,9 +1,9 @@
 {
-  "region": "us-east-1",
+  "region": "us-west-2",
   "cognito": {
-    "poolId": "",
-    "aws_cognito_region": "us-east-1",
-    "region": "us-east-1"
+    "poolId": "us-west-2:584126bc-69a0-4175-ac7e-6774c8a4ff98",
+    "aws_cognito_region": "us-west-2",
+    "region": "us-west-2"
   },
   "connect": {
     "contactFlowId" : "",
@@ -14,7 +14,7 @@
     "waitingForAgentMessageIntervalSeconds": 60
   },
   "lex": {
-    "botName": "OrderFlowers",
+    "botName": "Ybookingbot",
     "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
     "initialSpeechInstruction": "Say 'Order Flowers' to get started.",
     "initialUtterance": "",
@@ -27,7 +27,7 @@
   },
   "ui": {
     "parentOrigin": "http://localhost:8000",
-    "toolbarTitle": "Order Flowers",
+    "toolbarTitle": "Ybooking bot",
     "toolbarLogo": "",
     "positiveFeedbackIntent": "Thumbs up",
     "negativeFeedbackIntent": "Thumbs down",
@@ -60,3 +60,5 @@
     "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
   }
 }
+
+
